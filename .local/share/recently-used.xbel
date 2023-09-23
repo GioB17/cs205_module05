@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/giovanni/cs105_module02_material.tgz" added="2023-09-08T09:16:13.279221Z" modified="2023-09-08T09:16:13.279224Z" visited="2023-09-08T09:16:13.279221Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2023-09-08T09:16:13.279222Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/giovanni/Downloads/cs105-xxxx_module02_assignment_username_lastname_firstname.docx" added="2023-09-08T09:20:57.258026Z" modified="2023-09-14T16:19:01.827223Z" visited="2023-09-08T09:20:57.258028Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.3" exec="&apos;soffice %u&apos;" modified="2023-09-14T16:19:01.827221Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/giovanni/cs105_module02_material/assets/ocean/wiki.txt" added="2023-09-08T09:28:24.479868Z" modified="2023-09-08T09:28:24.479872Z" visited="2023-09-08T09:28:24.479869Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-09-08T09:28:24.479870Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/giovanni/cs105_module02_material/cs105-xxxx_module02_assignment_username_lastname_firstname.docx" added="2023-09-08T09:47:57.432599Z" modified="2023-09-08T09:47:59.702878Z" visited="2023-09-08T09:47:57.432600Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.3" exec="&apos;soffice %u&apos;" modified="2023-09-08T09:47:59.702876Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/giovanni/cs105_module02_material/new_dir/pot_of_gold.txt" added="2023-09-08T11:03:45.466003Z" modified="2023-09-08T11:03:45.466006Z" visited="2023-09-08T11:03:45.466003Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-09-08T11:03:45.466005Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/giovanni/cs105_module02_material/assets/rainbow/pot_of_gold.txt" added="2023-09-08T17:18:31.735627Z" modified="2023-09-08T17:18:31.735629Z" visited="2023-09-08T17:18:31.735627Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-09-08T17:18:31.735628Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/giovanni/Downloads/cs105-xxxx_module04_assignment_username_lastname_firstname.docx" added="2023-09-14T17:37:19.976632Z" modified="2023-09-14T17:37:20.910331Z" visited="2023-09-14T17:37:19.976633Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.3" exec="&apos;soffice %u&apos;" modified="2023-09-14T17:37:20.910330Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/giovanni/Downloads/cisco-secure-client-linux64-5.0.01242-predeploy-k9.tar.gz" added="2023-09-14T17:39:08.567567Z" modified="2023-09-14T17:47:44.992076Z" visited="2023-09-14T17:39:08.567567Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-09-14T17:40:09.008969Z" count="5"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;file-roller %U&apos;" modified="2023-09-14T17:47:44.110479Z" count="2"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2023-09-14T17:47:44.992075Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/giovanni/Downloads/cs105-xxxx_module04_assignment_username_lastname_firstname(1).docx" added="2023-09-16T02:44:43.468914Z" modified="2023-09-16T02:54:55.686803Z" visited="2023-09-16T02:44:43.468916Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 7.3" exec="&apos;soffice %u&apos;" modified="2023-09-16T02:54:55.686802Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/giovanni/Downloads/xkcd_ssh.png" added="2023-09-16T03:03:37.620661Z" modified="2023-09-17T03:00:51.885554Z" visited="2023-09-16T03:03:37.620662Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;eog %U&apos;" modified="2023-09-17T03:00:51.562794Z" count="3"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2023-09-17T03:00:51.885553Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
