@@ -1,0 +1,8 @@
+{"timestamp":511035,"category":"fog.validation","name":"validate_early_event"}
+{"timestamp":514009,"category":"nimbus_events","name":"enrollment","extra":{"branch":"control","enrollment_id":"4c179106-b9ec-4a6d-9931-f70879d71ecf","experiment_type":"nimbus","experiment":"fullpage-translations"}}
+{"timestamp":514079,"category":"nimbus_events","name":"validation_failed","extra":{"experiment":"next-generation-accessibility-engine-powering-screen-readers","reason":"invalid-feature","feature":"accessibilityCache"}}
+{"timestamp":514079,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","feature":"accessibilityCache","experiment":"next-generation-accessibility-engine-powering-screen-readers-and-other-ats-copy"}}
+{"timestamp":522639,"category":"urlbar","name":"impression","extra":{"groups":"heuristic","reason":"pause","n_results":"1","interaction":"typed","n_chars":"0","n_words":"0","results":"tip_onboard","search_mode":"","sap":"urlbar_newtab"}}
+{"timestamp":523169,"category":"urlbar","name":"abandonment","extra":{"interaction":"typed","search_mode":"","results":"tip_onboard","n_words":"0","sap":"urlbar_newtab","n_results":"1","groups":"heuristic","n_chars":"0"}}
+{"timestamp":541361,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","feature":"accessibilityCache","experiment":"next-generation-accessibility-engine-powering-screen-readers"}}
+{"timestamp":541364,"category":"nimbus_events","name":"validation_failed","extra":{"experiment":"next-generation-accessibility-engine-powering-screen-readers-and-other-ats-copy","feature":"accessibilityCache","reason":"invalid-feature"}}

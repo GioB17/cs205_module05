@@ -1,0 +1,814 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+.double-border, .logo-image:focus, .logo-image:hover, #fm1 .row input[type="text"]:focus, #fm1 .row input[type="text"]:hover,
+#fm1 .row input[type="password"]:focus,
+#fm1 .row input[type="password"]:hover, #fm1 .row a:focus, #fm1 .row a:hover {
+  border-color: #fbb040;
+  border-image-source: url("../images/border-focus.png");
+  border-image-slice: 33%;
+  border-image-width: 1;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-style: solid;
+  border-width: .4rem;
+  outline: none; }
+
+html {
+  font-size: 62.5%;
+  height: 100%; }
+
+body {
+  background: #00274d url("../images/bg-with-shadow-logo-min.jpg") no-repeat center top;
+  background-size: cover;
+  color: #FFFFFF;
+  font-family: acumin-pro-condensed, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 0; }
+
+p {
+  font-family: acumin-pro, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 1.0rem; }
+
+h1 {
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: .5em; }
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0 0 0.8rem;
+  text-align: center;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-bottom: 1em; }
+
+h4 {
+  font-size: 1.3125em;
+  line-height: 1.142857142857143em;
+  margin-bottom: 1.142857142857143em; }
+
+h5 {
+  font-size: 1.125em;
+  line-height: 1.333333333333333em;
+  margin-bottom: 1.333333333333333em; }
+
+h6 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em; }
+
+p {
+  font-family: acumin-pro, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 1.0rem; }
+
+a {
+  color: #ffd200;
+  text-decoration: none; }
+  a:active, a:focus, a:hover {
+    text-decoration: underline; }
+  a.btn {
+    height: 4.0rem;
+    line-height: 1.5; }
+
+input, textarea, select {
+  -webkit-appearance: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #003466;
+  font-family: acumin-pro-condensed, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  height: 4.8rem;
+  width: 100%;
+  padding: 0 1.0rem;
+  vertical-align: top; }
+
+::-webkit-input-placeholder {
+  color: white;
+  opacity: 1 !important; }
+
+:-moz-placeholder {
+  color: white;
+  opacity: 1; }
+
+::-moz-placeholder {
+  color: white;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  color: white; }
+
+[placeholder]:focus::-webkit-input-placeholder {
+  color: white; }
+
+#container {
+  width: 27.2rem;
+  padding: 0;
+  margin: 4.2rem auto 0; }
+  #container.error #content {
+    margin-top: 4.5rem; }
+
+#content {
+  margin: 6.5rem 0 0;
+  padding: 0; }
+
+.row {
+  text-align: center;
+  line-height: 1.6rem;
+  margin: 0 0 2.2rem;
+  vertical-align: middle; }
+  .row.link {
+    margin: 0 0 1.4rem; }
+  .row.btn-row {
+    margin: 4.6rem 0; }
+
+.logo-image {
+  border: .4rem solid transparent;
+  display: block;
+  height: 10rem;
+  margin: 0 auto;
+  padding: 0; }
+  .logo-image img {
+    display: block;
+    height: 100%;
+    margin: 0 auto; }
+
+#fm1 .row input[type="text"],
+#fm1 .row input[type="password"] {
+  background: white;
+  border: solid .4rem white;
+  color: #003466;
+  display: block;
+  margin: 0;
+  outline: none;
+  width: 100%; }
+  #fm1 .row input[type="text"].error,
+  #fm1 .row input[type="password"].error {
+    border-color: #cf4527;
+    border-image: none;
+    color: #cf4527; }
+
+#fm1 .row a {
+  border: .4rem solid transparent;
+  color: #ffd200;
+  font-family: acumin-pro, sans-serif;
+  font-size: 2.0rem;
+  font-weight: normal;
+  line-height: 1.8;
+  padding: 0 .4rem .2rem; }
+  #fm1 .row a:hover {
+    color: #ffe04d; }
+  #fm1 .row a:active {
+    color: #fff6cd; }
+  #fm1 .row a:active {
+    color: #fff6cd; }
+  #fm1 .row a:visited {
+    color: #99cccc; }
+
+#fm1 .alert, #fm1 .errorLabel {
+  background: none;
+  display: block;
+  font-size: 1.6rem;
+  height: inherit;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  text-align: left; }
+  #fm1 .alert.alert-danger, #fm1 .errorLabel {
+    color: #fff6cd;
+    font-style: italic;
+    margin-bottom: 5.1rem; }
+
+#fm1 .errorLabel {
+  margin-bottom: 3.1rem; }
+
+#url {
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  hyphens: auto; }
+
+.alert, #fm1 .errorLabel,
+#fm1 .errorLabel,
+#msg {
+  background: white;
+  color: #003466;
+  margin: 0 0 4.4rem;
+  padding: 1.6rem; }
+  .alert a, #fm1 .errorLabel a, .alert em, #fm1 .errorLabel em,
+  #fm1 .errorLabel a,
+  #fm1 .errorLabel em,
+  #msg a,
+  #msg em {
+    color: #cf4527;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none; }
+  .alert.alert-success, #fm1 .alert-success.errorLabel,
+  #fm1 .errorLabel.alert-success,
+  #msg.alert-success {
+    background: transparent;
+    color: white;
+    padding: 0; }
+    .alert.alert-success h2, #fm1 .alert-success.errorLabel h2,
+    #fm1 .errorLabel.alert-success h2,
+    #msg.alert-success h2 {
+      display: none; }
+    .alert.alert-success a, #fm1 .alert-success.errorLabel a, .alert.alert-success em, #fm1 .alert-success.errorLabel em,
+    #fm1 .errorLabel.alert-success a,
+    #fm1 .errorLabel.alert-success em,
+    #msg.alert-success a,
+    #msg.alert-success em {
+      color: #ffd200; }
+
+#login.login-acceptable-use {
+  width: 100%; }
+
+#loginform .row input[type="text"], #loginform .row input[type="password"] {
+  background: #FFFFFF;
+  border: solid 0.4rem #FFFFFF;
+  color: #003466;
+  display: block;
+  margin: 0;
+  outline: none;
+  width: 100%; }
+  #loginform .row input[type="text"].error, #loginform .row input[type="password"].error {
+    border-color: #cf4527;
+    border-image: none;
+    color: #cf4527; }
+
+#loginform .alert, #loginform #fm1 .errorLabel, #fm1 #loginform .errorLabel, #loginform .errorLabel {
+  background: none;
+  display: block;
+  font-size: 1.6rem;
+  height: inherit; /* added by Trey */
+  margin: 0.5rem 0 0;
+  padding: 0;
+  text-align: left; }
+  #loginform .alert.alert-danger, #loginform #fm1 .errorLabel, #fm1 #loginform .errorLabel, #loginform .errorLabel.alert-danger {
+    color: #fff6cd;
+    font-style: italic;
+    margin-bottom: 5.1rem; }
+
+#pmlinks .row a {
+  border: .4rem solid transparent;
+  color: #ffd200;
+  font-family: acumin-pro, sans-serif;
+  font-size: 2.0rem;
+  font-weight: normal;
+  line-height: 1.8;
+  padding: 0 .4rem .2rem; }
+  #pmlinks .row a:hover {
+    color: #99cccc; }
+
+button, .btn, input[type="button"], input[type="submit"] {
+  background: #ffd200;
+  border: solid 0.4rem #ffd200;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.6);
+  color: #003466;
+  cursor: pointer;
+  display: block;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-top: 1rem;
+  outline: none !important;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase; }
+  button:first-child, .btn:first-child, input[type="button"]:first-child, input[type="submit"]:first-child {
+    margin-top: 0; }
+  button:focus, .btn:focus, input[type="button"]:focus, input[type="submit"]:focus {
+    border-color: #0057ab; }
+  button:hover, .btn:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: #ffe04d;
+    border-color: #ffe04d;
+    text-decoration: none; }
+  button:active, .btn:active, input[type="button"]:active, input[type="submit"]:active {
+    background-color: #00274d;
+    border-color: #ffd200;
+    box-shadow: none;
+    color: #ffd200; }
+  button + button, button + .btn, button + input[type="button"], button + input[type="submit"], .btn + button, .btn + .btn, .btn + input[type="button"], .btn + input[type="submit"], input[type="button"] + button, input[type="button"] + .btn, input[type="button"] + input[type="button"], input[type="button"] + input[type="submit"], input[type="submit"] + button, input[type="submit"] + .btn, input[type="submit"] + input[type="button"], input[type="submit"] + input[type="submit"] {
+    margin-top: 4.6rem; }
+
+.continue-form {
+  margin-top: 4.6rem; }
+
+label {
+  display: block;
+  padding: 0 0 .5rem;
+  text-align: left; }
+
+fieldset {
+  border: none;
+  padding: 0; }
+
+hr {
+  width: 100%;
+  margin: 0 0 2.1rem;
+  border: 0.1rem solid #0057ab; }
+
+.alert, #fm1 .errorLabel, #loginform .errorLabel, #msg {
+  background: white;
+  color: #003466;
+  margin: 0 0 4.4rem;
+  padding: 1.6rem; }
+
+  .alert a, #fm1 .errorLabel a, .alert em, #fm1 .errorLabel em, #loginform .errorLabel a, #loginform .errorLabel em, #msg a, #msg em {
+    color: #cf4527;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+  white-space: normal; }
+
+#env_banner h1 {
+  background: #9cc;
+  color: #003466;
+  font-size: 2.5em;
+  line-height: 1em;
+  margin: 0;
+  padding: 0.4em 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  z-index: 1; }
+
+body.duo-login #container {
+  width: 31.0rem; }
+
+body.duo-login #content {
+  margin-top: 4.2rem; }
+
+body.duo-login .logo-image {
+  box-shadow: none; }
+
+#duo_iframe {
+  width: 100%;
+  height: 33.0rem; }
+
+#cas-global-notice {
+  color: #343a40;
+  background-color: #ffe083;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+#cas-global-notice a.link-notice {
+  color: #00478c;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 40em) and (max-height: 37.5em) {
+  #container {
+    margin-top: 2.2rem; }
+  #content {
+    margin-top: 2.4rem; }
+  .logo-image {
+    height: 5.8rem; }
+  #fm1 .row.link {
+    margin: 0; }
+    #fm1 .row.link a {
+      font-size: 1.7rem; } }
+
+/* desktop */
+@media screen and (min-width: 40em) {
+  body {
+    background-image: url("../images/bg-peaks-1900-min.png"), linear-gradient(to bottom, #0057ab 0%, #0057ab 40%, #00274d 60%, #00274d 100%);
+    background-position: 40% center;
+    background-size: 2560px; }
+  hr {
+    width: 100%;
+    margin: 0 0 3.3rem;
+    border: 0.1rem solid #0057ab; }
+  #container {
+    margin-top: 5.0rem; }
+  .row.btn-row {
+    margin-bottom: 5.6rem; }
+  body.duo-login #container {
+    width: 64.0rem; }
+  body.duo-login #content {
+    margin-top: 5.3rem; }
+  #duo_iframe {
+    height: 40.0rem; } }
+
+/* landscape */
+@media screen and (min-width: 40em) and (max-height: 43em) {
+  hr {
+    display: none; }
+  #container {
+    margin-top: 2.2rem;
+    width: 64.0rem; }
+    #container.error #content {
+      margin-top: 2.4rem; }
+  #content {
+    margin-top: 2.4rem; }
+  .logo-image {
+    background: transparent url("../images/NAU_Acronym_horiz_1Line_rev-3514.svg") no-repeat center;
+    background-size: contain;
+    height: 4.2rem;
+    width: 50rem; }
+    .logo-image img {
+      display: none; }
+  #fm1 .group:last-child {
+    margin: 0 auto;
+    width: 30rem; }
+  #fm1 .row {
+    float: left;
+    margin: 0 2%;
+    width: 46%; }
+    #fm1 .row.btn-row {
+      float: none;
+      margin: 13rem auto 2.0rem;
+      width: 27.2rem; }
+    #fm1 .row.link {
+      float: left;
+      margin: 0;
+      width: auto; }
+      #fm1 .row.link:nth-child(even) {
+        float: right; }
+      #fm1 .row.link a {
+        font-size: 1.7rem; }
+  #fm1 .alert, #fm1 .errorLabel {
+    text-align: center; }
+  #fm1 #login-alert, #fm1 #caps-alert {
+    width: 200%;
+    margin-left: -100%; }
+  #fm1 div#pwdError, #fm1 div#uidError {
+    background: none;
+    color: #fff6cd;
+    margin: 0 0 2.1rem;
+    padding: .75rem;
+}
+  body.duo-login #content {
+    margin-top: 1.5rem; } }
+þ¬fÛ      eUeUFtePÎ   I    O^partitionKey=%28https%2Cnau.edu%29,:https://cas.nau.edu/cas/css/cas.css strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAAAAgAAAAAAAAAAAAAAAAAAAAEAOQFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAahMIIGnTCCBYWgAwIBAgIQNXk2r7WU5wVX1Q3QsvCZNzANBgkqhkiG9w0BAQsFADB2MQswCQYDVQQGEwJVUzELMAkGA1UECBMCTUkxEjAQBgNVBAcTCUFubiBBcmJvcjESMBAGA1UEChMJSW50ZXJuZXQyMREwDwYDVQQLEwhJbkNvbW1vbjEfMB0GA1UEAxMWSW5Db21tb24gUlNBIFNlcnZlciBDQTAeFw0yMzA4MTcwMDAwMDBaFw0yNDA4MTYyMzU5NTlaMFsxCzAJBgNVBAYTAlVTMRAwDgYDVQQIEwdBcml6b25hMSQwIgYDVQQKExtOb3J0aGVybiBBcml6b25hIFVuaXZlcnNpdHkxFDASBgNVBAMTC2Nhcy5uYXUuZWR1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxM3TNpd66jUNSdZnyqWPI3wWYEu4hRuL68Gzz/IorADTZvJ7tWSqOlUjtAtaIhP2BPH/NdonzIm0auND2aQNbGkguaMHVEgCVS06tzP1lI3s+eWeoXyH2J0L02cTs80Yg0t26Yfl8Y06VF+6VqzMqZQxQm8YCwJPKu1qbY6qXFYeYB2159Q+Sfl4QvePM5VuarFGjxHnMa93rqze1VZiphQaa8pgRwRUfPoyhwuxx84QkXPvWr/cByFMISJXyu+QsY3zf1UaTgEKHzl+RGKl4Tj+tywKuf93vBg9cTaMky86/s2SGG0srFWmfuuHdGOaoC3LCho3YD/CYtkkVY/AJwIDAQABo4IDQDCCAzwwHwYDVR0jBBgwFoAUHgWjd49sluJbh0umtIascQAM5zgwHQYDVR0OBBYEFHkd9deSb2BdHwFyejmTC12glc4kMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBnBgNVHSAEYDBeMFIGDCsGAQQBriMBBAMBATBCMEAGCCsGAQUFBwIBFjRodHRwczovL3d3dy5pbmNvbW1vbi5vcmcvY2VydC9yZXBvc2l0b3J5L2Nwc19zc2wucGRmMAgGBmeBDAECAjBEBgNVHR8EPTA7MDmgN6A1hjNodHRwOi8vY3JsLmluY29tbW9uLXJzYS5vcmcvSW5Db21tb25SU0FTZXJ2ZXJDQS5jcmwwdQYIKwYBBQUHAQEEaTBnMD4GCCsGAQUFBzAChjJodHRwOi8vY3J0LnVzZXJ0cnVzdC5jb20vSW5Db21tb25SU0FTZXJ2ZXJDQV8yLmNydDAlBggrBgEFBQcwAYYZaHR0cDovL29jc3AudXNlcnRydXN0LmNvbTAWBgNVHREEDzANggtjYXMubmF1LmVkdTCCAX0GCisGAQQB1nkCBAIEggFtBIIBaQFnAHYAdv+IPwq2+5VRwmHM9Ye6NLSkzbsp3GhCCp/mZ0xaOnQAAAGKANUR6QAABAMARzBFAiAUqMHq2dkanB+h+v7mDA+gKn4fZiBUDxDZinEmwOPtjwIhAPeUp+zZnWq51Tf/ikHEIrrsDDo46BHXZVF9sl0Nu0k9AHUA2ra/az+1tiKfm8K7XGvocJFxbLtRhIU0vaQ9MEjX+6sAAAGKANUSQAAABAMARjBEAiAFhZ3n3Im2dfe0h23Ve6Vl9M6FCvuqwpTYY0Zw6C1UQwIgbXO3C+ofwBg0LsEGaK2fouVGCmNUESuzsKOJ1bjdV6oAdgDuzdBk1dsazsVct520zROiModGfLzs3sNRSFlGcR+1mwAAAYoA1RJnAAAEAwBHMEUCIHnSwjZbJUlZ+WxemYkDywFApuXZ6Ri/ej1SbLcVY66MAiEAiqO1pwcAjBPl7fnHe0gMsve+yydsNrGR50uKJIwY00EwDQYJKoZIhvcNAQELBQADggEBAA5vLDNIEXf/iBEnY9GcPz+LqirCTYKAfeO6WrgBxqnhtFtYT78bBVuX6cDmbcCSK/b21hd8toUj9kJm4ppOD7ouVr6xhjr/Fe28qsV69dRgbDbT7IbDQx4NcCitWh6umTMPfeAVFRkdTxvlqSY0Qk04q04lHa9bwZfGDKYCORu+z72knuKzNymc4Q8PcS6VNTjQeCpjxvP/SoAxWhs/h6Xt6WtbPAVxw9ChAYAWdlaDpmx11Cc1XnB8oTZ6GoCiUO1aXh1vzTaav80VHeoXMZtjRo/3JwWKHz0NfSXDEeLUEuQjKAnSm8BEp/effXDMiArr3V0EWsklvZ7Sp5xLcbfALwADAAAAAAABAQAAAAAAAARQMjU2AAAAEFJTQS1QS0NTMS1TSEE1MTIAA2YKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAABqEwggadMIIFhaADAgECAhA1eTavtZTnBVfVDdCy8Jk3MA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJNSTESMBAGA1UEBxMJQW5uIEFyYm9yMRIwEAYDVQQKEwlJbnRlcm5ldDIxETAPBgNVBAsTCEluQ29tbW9uMR8wHQYDVQQDExZJbkNvbW1vbiBSU0EgU2VydmVyIENBMB4XDTIzMDgxNzAwMDAwMFoXDTI0MDgxNjIzNTk1OVowWzELMAkGA1UEBhMCVVMxEDAOBgNVBAgTB0FyaXpvbmExJDAiBgNVBAoTG05vcnRoZXJuIEFyaXpvbmEgVW5pdmVyc2l0eTEUMBIGA1UEAxMLY2FzLm5hdS5lZHUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDEzdM2l3rqNQ1J1mfKpY8jfBZgS7iFG4vrwbPP8iisANNm8nu1ZKo6VSO0C1oiE/YE8f812ifMibRq40PZpA1saSC5owdUSAJVLTq3M/WUjez55Z6hfIfYnQvTZxOzzRiDS3bph+XxjTpUX7pWrMyplDFCbxgLAk8q7WptjqpcVh5gHbXn1D5J+XhC948zlW5qsUaPEecxr3eurN7VVmKmFBprymBHBFR8+jKHC7HHzhCRc+9av9wHIUwhIlfK75CxjfN/VRpOAQofOX5EYqXhOP63LAq5/3e8GD1xNoyTLzr+zZIYbSysVaZ+64d0Y5qgLcsKGjdgP8Ji2SRVj8AnAgMBAAGjggNAMIIDPDAfBgNVHSMEGDAWgBQeBaN3j2yW4luHS6a0hqxxAAznODAdBgNVHQ4EFgQUeR3115JvYF0fAXJ6OZMLXaCVziQwDgYDVR0PAQH/BAQDAgWgMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMGcGA1UdIARgMF4wUgYMKwYBBAGuIwEEAwEBMEIwQAYIKwYBBQUHAgEWNGh0dHBzOi8vd3d3LmluY29tbW9uLm9yZy9jZXJ0L3JlcG9zaXRvcnkvY3BzX3NzbC5wZGYwCAYGZ4EMAQICMEQGA1UdHwQ9MDswOaA3oDWGM2h0dHA6Ly9jcmwuaW5jb21tb24tcnNhLm9yZy9JbkNvbW1vblJTQVNlcnZlckNBLmNybDB1BggrBgEFBQcBAQRpMGcwPgYIKwYBBQUHMAKGMmh0dHA6Ly9jcnQudXNlcnRydXN0LmNvbS9JbkNvbW1vblJTQVNlcnZlckNBXzIuY3J0MCUGCCsGAQUFBzABhhlodHRwOi8vb2NzcC51c2VydHJ1c3QuY29tMBYGA1UdEQQPMA2CC2Nhcy5uYXUuZWR1MIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdgB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAYoA1RHpAAAEAwBHMEUCIBSowerZ2RqcH6H6/uYMD6Aqfh9mIFQPENmKcSbA4+2PAiEA95Sn7NmdarnVN/+KQcQiuuwMOjjoEddlUX2yXQ27ST0AdQDatr9rP7W2Ip+bwrtca+hwkXFsu1GEhTS9pD0wSNf7qwAAAYoA1RJAAAAEAwBGMEQCIAWFnefcibZ197SHbdV7pWX0zoUK+6rClNhjRnDoLVRDAiBtc7cL6h/AGDQuwQZorZ+i5UYKY1QRK7Owo4nVuN1XqgB2AO7N0GTV2xrOxVy3nbTNE6Iyh0Z8vOzew1FIWUZxH7WbAAABigDVEmcAAAQDAEcwRQIgedLCNlslSVn5bF6ZiQPLAUCm5dnpGL96PVJstxVjrowCIQCKo7WnBwCME+Xt+cd7SAyy977LJ2w2sZHnS4okjBjTQTANBgkqhkiG9w0BAQsFAAOCAQEADm8sM0gRd/+IESdj0Zw/P4uqKsJNgoB947pauAHGqeG0W1hPvxsFW5fpwOZtwJIr9vbWF3y2hSP2Qmbimk4Pui5WvrGGOv8V7byqxXr11GBsNtPshsNDHg1wKK1aHq6ZMw994BUVGR1PG+WpJjRCTTirTiUdr1vBl8YMpgI5G77PvaSe4rM3KZzhDw9xLpU1ONB4KmPG8/9KgDFaGz+Hpe3pa1s8BXHD0KEBgBZ2VoOmbHXUJzVecHyhNnoagKJQ7VpeHW/NNpq/zRUd6hcxm2NGj/cnBYofPQ19JcMR4tQS5CMoCdKbwESn9599cMyICuvdXQRaySW9ntKnnEtxt2YKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAABf0wggX5MIID4aADAgECAhBHIND6hUYafhehZAKRhGN0MA0GCSqGSIb3DQEBDAUAMIGIMQswCQYDVQQGEwJVUzETMBEGA1UECBMKTmV3IEplcnNleTEUMBIGA1UEBxMLSmVyc2V5IENpdHkxHjAcBgNVBAoTFVRoZSBVU0VSVFJVU1QgTmV0d29yazEuMCwGA1UEAxMlVVNFUlRydXN0IFJTQSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTAeFw0xNDEwMDYwMDAwMDBaFw0yNDEwMDUyMzU5NTlaMHYxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJNSTESMBAGA1UEBxMJQW5uIEFyYm9yMRIwEAYDVQQKEwlJbnRlcm5ldDIxETAPBgNVBAsTCEluQ29tbW9uMR8wHQYDVQQDExZJbkNvbW1vbiBSU0EgU2VydmVyIENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnBvxuy9/YxgVUVFUD57FTk0QWPowmxcpkOYzDKwTU3xUkbTq2G6biW27Mz6P0g2m6fm66Q0MGp6yjslwLu8eBX2V6y2NoqlNs5zn8xk2u6fxfOYIHmEnRHqW9Kg02+JCyKXbN9W15+RCcj+0E8+LByRFHoyRg0a5Cab8GKMGAuw0jTJmlSfq4Zfo2zWjK1brV+jwEFnfbXAMZmrQZOWoo5gxrR1i1fqS45pDzS01+9meM1tFfcSGKCxmEsjbDxkwDT/p8OpKXkAHx/YgelN4gWR6fkVqFm/0k1jJYvspJ32hfyHO509H1opW4ONm+OzdidwmjBloO42L4vtHIwt/NwIDAQABo4IBbjCCAWowHwYDVR0jBBgwFoAUU3m/WqorSs9UgOHYm8Cd8rIDZsswHQYDVR0OBBYEFB4Fo3ePbJbiW4dLprSGrHEADOc4MA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAbBgNVHSAEFDASMAYGBFUdIAAwCAYGZ4EMAQICMFAGA1UdHwRJMEcwRaBDoEGGP2h0dHA6Ly9jcmwudXNlcnRydXN0LmNvbS9VU0VSVHJ1c3RSU0FDZXJ0aWZpY2F0aW9uQXV0aG9yaXR5LmNybDB2BggrBgEFBQcBAQRqMGgwPwYIKwYBBQUHMAKGM2h0dHA6Ly9jcnQudXNlcnRydXN0LmNvbS9VU0VSVHJ1c3RSU0FBZGRUcnVzdENBLmNydDAlBggrBgEFBQcwAYYZaHR0cDovL29jc3AudXNlcnRydXN0LmNvbTANBgkqhkiG9w0BAQwFAAOCAgEALREGONbb11hor6o4ZxeN4hPXoxQk2QYT6+uRL99PZy3I0xTXVmVSnm4fmAiOmkgbwYtZmqNXm9uG+FlA/BmwdREqwhI2uo5yigZOJ7eNWBTRb7T5aPyY3aScJUA23r0XZisDf3iBsYB0nl86tCYvakiENjSOpyjvh/Nh59tn9VLb19HmMHG7i6PU/7lkiZ6bgZuPV7hkTNUGGY7nkYV8GNGJ2PbqHWgUEdnuF4MfUGPPDvaGKm7jsaTJ+vY0THcqgIYwsKPcG3HsBKfkmLwWhT6EJrPA5TVVfnmYo9TUjbbnQuhEIBI3XwnJ+wPk9WV0lu3KubP2Cf9MptFdOvzRTarkmHK+OEt/iU4mj9TMvlYJcQNKbKPiNYbdHtnxMQP3E00LEYExecx6177c+/N2Gyy9s5EPAFkHKiBD3EvYtRkUj+J6hCnRQz8vzN8/nbu9aMTO4M3nHDEyeGL68JOiHsnXn2jlqHb2Y/5ome+6NtcScZqes3EfO74AY549XyHCsYYbuE4hw8NDCS5jDM3/FPb2Iun9yp/1mES2QZxBwgiYfdugnyJ+wKdJu7QYH0vTpiqHuVzK8oNMQAOyUhp5IQg3GE7ZjV+ZxgVf8WquunVaeEc6OmVe5cTQ49rS61ooLbkCmWCibzwvZnyYRZzJ+gHvMo58Pvn0A3skplYJjCRmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAXiMIIF3jCCA8agAwIBAgIQAf1tMPyjylGoG7xkDjUDLTANBgkqhkiG9w0BAQwFADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCk5ldyBKZXJzZXkxFDASBgNVBAcTC0plcnNleSBDaXR5MR4wHAYDVQQKExVUaGUgVVNFUlRSVVNUIE5ldHdvcmsxLjAsBgNVBAMTJVVTRVJUcnVzdCBSU0EgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTAwMjAxMDAwMDAwWhcNMzgwMTE4MjM1OTU5WjCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCk5ldyBKZXJzZXkxFDASBgNVBAcTC0plcnNleSBDaXR5MR4wHAYDVQQKExVUaGUgVVNFUlRSVVNUIE5ldHdvcmsxLjAsBgNVBAMTJVVTRVJUcnVzdCBSU0EgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCAEmUXNg7D2wiz0KxXDXbtzSfTTK1Qg2HiqiBNCS1kCdzOiZ/MPans9s/B3PHTsdZ7NygRK0faOca8Ohm0X6a9fZ2jY0K2dvKpOyuR+OJv0OwWIJAJPuLodMkYtJHUYmTbf6MG8YgYapAiPLz+E/CHFHv25B+O1ORRxhFnRghRy4YUVD+8M/5+bJz/Fp0YvVGONaanZshyZ9shZrHUm3gDwFA66Mzw3LyeTP6vBZY1H1dat//O+T23LLb2VN3I5xI6Ta5MirdcmrS3ID3KfyI0rn47aGYBROcBTkZTmzNg95S+UzeQc0PzMsNT79uq/nROacdrjGCT3sTHDN/hMq7MkztReJVni+49Vv4M0GkPGw/zJSZrM233bkf6c0Plfg6lZrEpfDKEY1WJxA3Bk1QwGROs0303p+tdOmw1XNtB1xLaqUkL39iAigmTYo61Zs8liM2EuLE/pDkP2QKe6xJMlXzzawWpXhaDzLhn4ugTncxbgtNMs+1b/97lc6wjOy0AvzVVdAlJ2ElYGn+SNuZRkg7zJn0cTRe8yexDJtC/QV9AqURE9JnnV4eeUB9XVKg+/XRjL7FQZQnmWEIuQxpMtPAlR1n6BB6T1CZGSlCBst6+eLf8ZxXhyVeEHg9j1uliutZfVS7qXMYoCAQlObgOK6nyTJccBz8NUvXt7y+CDwIDAQABo0IwQDAdBgNVHQ4EFgQUU3m/WqorSs9UgOHYm8Cd8rIDZsswDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQEMBQADggIBAFzUfA3P9wF9QZllDHPFUp/L+M+ZBn8b2kMVn54CVVeWFPFSPCeHlCjtHzoBN6J2/FNQwISbxmtOuowhT6KOVWKR82kV2LyI48SqC/3vqOlLVSoGIG1VeCkZ7l8wXEskEVX/JJpuXior7gtNn3/3ATiUFJVDBwn7YKnuHKsSjKCaXqeYalltiz8I+8jRRa8YFWSQEg9zKC7F4iRO/Fjs8PRF/iKz6y+O0tlFYQXBl2+odnKPi4w2r78NBc5xjeambx9spnFixdjQg3IM8WcRiQycE0xyNN+81XHfqnHd4blsjDwSXWXavVcStkNr/+XeTWYRUc+ZruwXtuhxkYzeSf7dNXGiFSeUHM9h4ya7b6NnJSFd5t0dCy5oGzuCr+yDZ4XUmFF0sbmZgIn/f3gZXHlKYC6SQK5MNyosycdiyA5d9zZbyuAlJQG03RoHnHcAP9Dc1ew91Pq7P8yF1m9/qS3fuQL39ZeatTXaw2ewh0qpKJ4jjv9cJ2vhsE/zB+4ALtRZh8tSQZXq9EfX7mRBVXyNWQKV3WKdwrnuWih0hKWbt5DHDAff9Yk2dDLWKMGwsAvgnEzDHNb842m1R0aBL6KCq9NjRHDEjf8tM7qtj3u1cIiuPhnPQCjY/MiQu12ZIvVS5ljFH4gxQ+6IHdfGjjxDah2nGN59PRbxYvnKkKj9AAAAAQAAAAhodHRwLzEuMQABAAAAAEV0bHNmbGFnczB4MDAwMDAwMDA6Y2FzLm5hdS5lZHU6NDQzXnBhcnRpdGlvbktleT0lMjhodHRwcyUyQ25hdS5lZHUlMjkBAA== request-method GET response-head HTTP/1.1 200 
+requestId: ee433d88-1e3b-4764-8391-92a10b8ee999
+Strict-Transport-Security: max-age=15768000 ; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Last-Modified: Tue, 28 Mar 2023 04:44:48 GMT
+Accept-Ranges: bytes
+Content-Type: text/css;charset=UTF-8
+Content-Length: 17755
+Date: Sat, 16 Sep 2023 02:43:26 GMT
+Content-Security-Policy: frame-ancestors https://shibboleth.nau.edu;
+ original-response-headers requestId: ee433d88-1e3b-4764-8391-92a10b8ee999
+Strict-Transport-Security: max-age=15768000 ; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Last-Modified: Tue, 28 Mar 2023 04:44:48 GMT
+Accept-Ranges: bytes
+Content-Type: text/css;charset=UTF-8
+Content-Length: 17755
+Date: Sat, 16 Sep 2023 02:43:26 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Content-Security-Policy: frame-ancestors https://shibboleth.nau.edu;
+ ctid 5 uncompressed-len 0 net-response-time-onstart 100 net-response-time-onstop 101 necko:classified 1   E[
